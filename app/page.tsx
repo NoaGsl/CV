@@ -31,7 +31,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-6xl text-center" style={setStyle()}>
-          Je m appelle Noa<ExampleComponent />
+          Je m appelle Noa aa a a a a <ExampleComponent />
         </h2>
         <h3 className="text-2xl text-center">h3</h3>
         <h4 className="text-2xl text-center">h4</h4>
