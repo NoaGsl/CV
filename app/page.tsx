@@ -12,3 +12,7 @@ export default function Home() {
     </div>
   );
 }
+
+// const handleClick = () => {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// };
