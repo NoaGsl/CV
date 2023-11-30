@@ -12,7 +12,7 @@ export default function Footer() {
   const year = today.getFullYear();
 
   return (
-    <footer className="grid grid-rows-[3fr_3fr_3fr] md:grid-rows-[8fr_2fr] lg:grid-rows-1 gap-4 space-y-4 md:space-y-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 h-min-screen w-full bottom-0 bg-light_brown lg:order-1">
+    <footer className="grid grid-rows-[3fr_3fr_3fr] md:grid-rows-[8fr_2fr] lg:grid-rows-1 gap-4 space-y-4 md:space-y-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 w-full bottom-0 bg-light_brown lg:order-1">
       <div className="flex justify-center items-center ">
         <a href="/download.png" download="CV_Noa_Gosselin">
           <div className="flex justify-center items-center space-x-4">
