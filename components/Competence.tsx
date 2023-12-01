@@ -1,10 +1,11 @@
 import AnimatedText from "@/components/AnimatedText";
-import Image from "next/image";
-import JS from "@/public/JS.png";
-import Python from "@/public/Python.png";
-import Java from "@/public/Java.png";
-import CS from "@/public/CS.png";
-import git from "@/public/git.png";
+import Java from "./Java";
+import CS from "./CS";
+import Git from "./Git";
+import SQL from "./SQL";
+import * as React from 'react';
+import Javascript from "./Javascript";
+import Python from "./Python";
 
 export default function Competence() {
   return (
@@ -14,12 +15,13 @@ export default function Competence() {
           <AnimatedText />
         </p>
       </div>
-      <div className="flex grid grid-cols-3 grid-row-2">
-        <Image src={JS} alt="Javascript" />
-        <Image src={Python} alt="Python" />
-        <Image src={Java} alt="Java" />
-        <Image src={CS} alt="C#" />
-        <Image src={git} alt="Git" />
+      <div className="flex grid grid-cols-3 grid-row-2 space-y-4 space-x-4">
+        <Javascript />
+        <Python />
+        <Java />
+        <CS />
+        <Git />
+        <SQL />
       </div>
     </div>
   );
