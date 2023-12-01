@@ -15,7 +15,7 @@ export default function Competence() {
           <AnimatedText />
         </p>
       </div>
-      <div className="flex grid grid-cols-3 grid-row-2 space-y-4 space-x-4">
+      <div className="flex grid grid-cols-2 grid-row-3 md:grid-cols-3 md:grid-row-2 space-y-4 space-x-4">
         <Javascript />
         <Python />
         <Java />
