@@ -16,7 +16,7 @@ export default function Python() {
             <Modal open={open} onClose={handleClose}>
                 <Box sx={ModalStyle()}>
                     <h2>Python</h2>
-                    <p>Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.</p>
+                    <p>Python is an interpreted, high-level and general-purpose programming language. Python&apos;s design philosophy emphasizes code readability with its notable use of significant indentation.</p>
                 </Box>
             </Modal>
         </div>
