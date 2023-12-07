@@ -5,6 +5,8 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import Competence from "@/components/Competence";
+import A_Propos from "./A_Propos";
+import Parcours from "./Parcours";
 
 export default function LabTabs() {
   const [value, setValue] = React.useState("1");
@@ -31,8 +33,8 @@ export default function LabTabs() {
             <TabPanel value="1">
               <Competence />
             </TabPanel>
-            <TabPanel value="2">Item Two</TabPanel>
-            <TabPanel value="3">Item Three</TabPanel>
+            <TabPanel value="2"><Parcours /></TabPanel>
+            <TabPanel value="3"><A_Propos /></TabPanel>
         </TabContext>
       </Box>
     </div>
