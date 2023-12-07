@@ -19,22 +19,26 @@ export default function LabTabs() {
     <div className="justify-center h-full grow">
       <Box>
         <TabContext value={value}>
-            <Box
-              display={"flex"}
-              justifyContent="center"
-              sx={{ borderBottom: 1, borderColor: "divider" }}
-            >
-              <TabList onChange={handleChange}>
-                <Tab label="Compétences" value="1" />
-                <Tab label="Parcours" value="2" />
-                <Tab label="À Propos" value="3" />
-              </TabList>
-            </Box>
-            <TabPanel value="1">
-              <Competence />
-            </TabPanel>
-            <TabPanel value="2"><Parcours /></TabPanel>
-            <TabPanel value="3"><A_Propos /></TabPanel>
+          <Box
+            display={"flex"}
+            justifyContent="center"
+            sx={{ borderBottom: 1, borderColor: "divider" }}
+          >
+            <TabList onChange={handleChange}>
+              <Tab label="Compétences" value="1" />
+              <Tab label="Parcours" value="2" />
+              <Tab label="À Propos" value="3" />
+            </TabList>
+          </Box>
+          <TabPanel value="1">
+            <Competence />
+          </TabPanel>
+          <TabPanel value="2">
+            <Parcours />
+          </TabPanel>
+          <TabPanel value="3">
+            <A_Propos />
+          </TabPanel>
         </TabContext>
       </Box>
     </div>

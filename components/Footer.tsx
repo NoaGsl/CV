@@ -3,9 +3,7 @@ import Image from "next/image";
 import linkedin from "../public/linkedin.png";
 import github from "../public/github.png";
 import mail from "../public/mail.png";
-import flecheHaut from "../public/flecheHaut.png";
 import download from "../public/download.png";
-import { Button } from "@mui/material";
 
 export default function Footer() {
   const today = new Date();
@@ -73,4 +71,3 @@ export default function Footer() {
   );
 }
 
-("linkedin github mail téléchargement cv bouton retour haut de page DateMAJ");
